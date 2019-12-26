@@ -14,7 +14,7 @@ header ul {
 
 header ul li{
     list-style: none;
-    margin-right: 100 px;
+    margin-right: 50px;
 }
 
 a {
@@ -25,4 +25,51 @@ a {
     max-width: 1280px;
     width: 90%;
     margin: auto;
+}
+ 
+header {
+    background: linear-gradient(rgba(84,93,220,.9), rgba(96,171,245,.9)), url(../imagenes/fondo.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+#contenedor-titulo-flex {
+    display: flex;
+    justify-content: center;
+    margin: 18vh 0;
+    max-width: 1580px;
+    width: 100%;
+}
+h1 {
+    font-size: 60px;
+    color: #ffffff;
+    margin: 0;
+}
+
+h2 {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.contenedor-titulo{
+    text-align: center;
+}
+
+.contenedor-titulo a {
+    font-size: 14px;
+    color: #ffffff;
+    background: #2175D3;
+    padding: 14px 24px;
+    width: 128px;
+    display: inline-block;
+}
+
+p.logo {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.lista-menu {
+    color: #ffffff;
+    font-size: 18px;
 }
