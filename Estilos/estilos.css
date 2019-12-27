@@ -55,10 +55,10 @@ h2 {
     text-align: center;
 }
 
-.contenedor-titulo a {
+.contenedor-titulo a, #sobre-mi a {
     font-size: 14px;
     color: #ffffff;
-    background: #2175D3;
+    background: #5cb8ff;
     padding: 14px 24px;
     width: 128px;
     display: inline-block;
@@ -72,4 +72,38 @@ p.logo {
 .lista-menu {
     color: #ffffff;
     font-size: 18px;
+}
+/*SECCIÓN SOBRE MÍ */
+h3 {
+    text-align: center;
+    font-size: 53px;
+    font-weight: normal;
+}
+#sobre-mi .contenedor-sobremi {
+    display: flex;
+    justify-content: space-around;
+}
+
+#sobre-mi .texto {
+    width: 42%;
+}
+
+/*SECCIÓN SERVICIOS*/
+.contenedor-servicios {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.servicio {
+    width: 24%;
+}
+
+.servicio h4 {
+    font-size: 30px;
+    margin:0;
+}
+
+.servicio p {
+    margin-bottom: 20px;
+    height: 194px;
 }
